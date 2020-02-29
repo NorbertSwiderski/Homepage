@@ -1,0 +1,33 @@
+body{
+    background: #fefefe;
+}
+h2{
+    color: #1460AA;
+}
+.monday{
+    color: aqua;
+}
+.tuesday{
+    color: darkmagenta;
+}
+.wednesday{
+    color: crimson;
+}
+.thursday{
+    color: chocolate;
+}
+.friday{
+    color: cadetblue;
+}
+p{
+    font-size: 20px;
+}
+.mainHeader{
+ font-size: 30px;
+ color:lightslategray;
+}
+.whoAmI,.diaryTeaching,.diarySport,.diaryRelationships,.diaryTravel,.footer
+{
+    font-size: 30px;
+    color: lime;
+}
