@@ -20,14 +20,12 @@ h2{
     color: cadetblue;
 }
 p{
-    font-size: 20px;
+    color: #55505C;
 }
 .mainHeader{
- font-size: 30px;
  color:lightslategray;
 }
 .whoAmI,.diaryTeaching,.diarySport,.diaryRelationships,.diaryTravel,.footer
 {
-    font-size: 30px;
-    color: lime;
+    color: #55505C;
 }
