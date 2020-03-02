@@ -3,11 +3,8 @@ body{
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    
 }
-h2{
-    color: #1460AA;
-}
+
 .monday{
     color: aqua;
 }
@@ -23,13 +20,22 @@ h2{
 .friday{
     color: cadetblue;
 }
-p{
-    color: #55505C;
+.header__title{
+ color:rgb(85, 132, 179);
 }
-.mainHeader{
- color:lightslategray;
+.about{
+
 }
-.whoAmI,.diaryTeaching,.diarySport,.diaryRelationships,.diaryTravel,.footer
+.about__paragraph,.diary__paragraph,.footer{
+    color: #173753;
+}
+.about__title,.diary__title{
+    color: #247BA0;
+}
+.diary{
+
+}
+.diary__teaching,.diary__sport,.diary__relationships,.diary__travel
 {
-    color: #55505C;
+    color: #3F4739;
 }
