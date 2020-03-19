@@ -5,7 +5,8 @@ html{
     box-sizing: inherit;
 }
 body {
-    background: #fefefe;
+    background: rgb(201,190,98);
+    background: linear-gradient(90deg, rgba(201,190,98,0.6166841736694677) 0%, rgba(37,166,176,0.258140756302521) 46%);
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
