@@ -58,3 +58,14 @@ body {
 .footer{
     padding-left: 0;
 }
+.navigation__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+}
+.navigation__link{
+    text-decoration: none;
+    margin-right: 30px;
+}
