@@ -34,6 +34,7 @@ body {
 
 .header__title {
     color: rgb(85, 132, 179);
+    line-height: 48px;
 }
 
 .about__paragraph, .diary__paragraph, .footer {
@@ -59,14 +60,43 @@ body {
 .footer{
     padding-left: 0;
 }
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+}
 .navigation__list{
     list-style: none;
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding-left: 0;
 }
 .navigation__link{
     text-decoration: none;
     margin-right: 30px;
+}
+@media (min-width: 651px){
+    .navigation__button{
+        display: none;
+    }
+}
+@media (max-width: 650px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .navigation__button{
+        border: none;
+        background: none;
+        position: absolute;
+        right: 16px;
+        top: 16px;
+    }
+    .navigation__list{
+        flex-direction: column;
+        display: none;
+    }
+    .navigation__list--visible{
+        display: flex;  
+        padding-left: 30px;
+    }
 }
